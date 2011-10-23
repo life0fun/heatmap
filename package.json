@@ -1,0 +1,11 @@
+{
+  "name":         "heatmap",
+  "description":  "location heatmap",
+  "version":      "0.0.1",
+  "author":       "Haijin Yan",
+  "dependencies": {
+	"socketstream": "> 0.1.8",
+    "control":  ">= 0.1.7"
+  },
+  "engines":      { "node": "> 0.4.1" }
+}

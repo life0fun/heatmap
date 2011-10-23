@@ -1,0 +1,18 @@
+!!! 5
+html(lang="en")
+  head
+    meta(name="viewport", content="initial-scale=1.0, user-scalable=no")
+    meta(http-equiv="content-type", content="text/html, charset=UTF-8")
+    meta(Access-Control-Allow-Origin="*")
+    != SocketStream
+    title Location Heatmap
+    link(rel="stylesheet", href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css",type="text/css")
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    //<script src="/js/heatmap-lib.js"></script>
+    <script src="/js/heatmap-gmaps.js"></script>  
+  body(id="index", style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px;") 
+    #header
+      h1 
+        p Location Real Time Heatmap
+      br
+    #map_canvas
